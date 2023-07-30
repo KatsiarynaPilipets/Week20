@@ -1,7 +1,7 @@
 function fetchData() {
     const baseUrl = 'https://swapi.dev/api';
     const entityType = 'people';
-    const entityId = Math.floor(Math.random() * 10) + 1; // Генерируем случайный числовой идентификатор от 1 до 10
+    const entityId = Math.floor(Math.random() * 10) + 1;
     const url = `${baseUrl}/${entityType}/${entityId}`;
 
     const loadingMessage = document.getElementById('loading');
