@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+#loading {
+    display: none;
+    margin-bottom: 10px;
+}
+
+#error {
+    color: red;
+    margin-bottom: 10px;
+}
+    </style>
+</head>
+<body>
+    <h1>Star Wars API App</h1>
+    <button onclick="fetchData()">Load data</button>
+    <div id="loading">Loading...</div>
+    <div id="result"></div>
+    <div id="error"></div>
+    <script src="script.js"></script>
+</body>
+</html>
